@@ -1,0 +1,52 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family:
+    font-size: 13px;
+    height: 800px;
+    background-image: url(../images/7742.jpg);
+    background-size: cover;
+}
+
+.main-settings h1{
+    color: #CC0033;
+    font-size: 80px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-settings h2{
+    color: #CC0033;
+    font-size: 50px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-settings h3{
+    color: #CC0033;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
