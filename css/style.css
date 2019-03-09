@@ -65,11 +65,14 @@ body {
 
 .questions li:hover{
     cursor: pointer;
+    background-color: #E83A57;
+    border: 1px solid #EF5350;
 }
 .questions i {
     margin: 6px;
     font-size: 17px;
     color: #FFFDE7;
+
 }
 
 .questions{
@@ -93,6 +96,7 @@ body {
 .previous-arrow:hover,
 .next-arrow:hover{
     cursor: pointer;
+    color: #607D8B;
 }
 
 /*Footer*/
@@ -112,8 +116,9 @@ body {
     color: #3366CC;
 }
 
-.footer p:hover{
+.footer p a:hover{
     cursor: pointer;
+    color: #3A7BFC;
 }
 
 
