@@ -28,34 +28,59 @@ body {
 }
 
 .main-text h3 {
-    color: #3366CC;
+    color: #336699;
     font-size: 22px;
     font-weight: 500;
     text-align: center;
     margin: 0px;
     padding: 40px 0 30px 0;
 }
+/*Questions-container*/
+.questions-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
 
-/*Questions*/
-.questions h4{
+.questions-stage {
+    width: 900px;
+}
+.questions {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.question{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    background-color: rgba(159, 182, 205, 0.5);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.question p{
     color: #FFFDE7;
     font-size: 20px;
     font-weight: 100;
-    margin-left: 130px;
+    margin-top: 0;
 }
 
-.questions ul {
+.answers {
     list-style: none;
-    margin-left: 130px;
-    padding:0;
+    padding: 0;
 }
 
-.questions li{
-    border: 1px solid #4fd167;
+.answer,
+.answer-correct {
+    border: 1px solid #4f779e;
     border-radius: 10px;
     height: 40px;
     width: 400px;
-    background-color: #43B558;
+    background-color: #678fb5;
     font-size: 15px;
     display: flex;
     align-items: center;
@@ -63,36 +88,29 @@ body {
     color: #FFFDE7;
 }
 
-.questions li:hover{
+.answer:hover,
+.answer-correct:hover {
     cursor: pointer;
     background-color: #E83A57;
     border: 1px solid #EF5350;
 }
-.questions i {
+
+.icon{
     margin: 6px;
     font-size: 17px;
     color: #FFFDE7;
-
-}
-
-.questions{
-    display: flex;
-}
-
-.arrows {
-    width: 400px;
-    margin: 25px 0 0 130px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .previous-arrow,
 .next-arrow {
     color: #fff;
     font-size: 30px;
-    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
 }
+
 .previous-arrow:hover,
 .next-arrow:hover{
     cursor: pointer;
@@ -109,6 +127,7 @@ body {
     text-align: center;
     margin-top: 70px;
 }
+
 .footer p a{
     text-decoration: none;
     font-weight: 600;
